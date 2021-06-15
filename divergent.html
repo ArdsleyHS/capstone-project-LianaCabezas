@@ -30,6 +30,15 @@
           h2{
             font-size:50px;
           }
+          a{
+            color:black;
+          }
+          .large{
+            font-size:30px;
+          }
+          .glyphicon{
+            font-size:55px;
+          }
 
         </style>
 
@@ -70,12 +79,32 @@
         <br>
         <br>
         <h1>Movie Adaptation</h1>
-        <img src = "https://upload.wikimedia.org/wikipedia/en/d/d4/Divergent.jpg">
-        <h2>3 Stars</h3>
-        <span class = "glyphicon glyphicon-star"></span>
-        <span class = "glyphicon glyphicon-star"></span>
-        <span class = "glyphicon glyphicon-star"></span>
-        <span class = "glyphicon glyphicon-star-empty"></span>
-        <span class = "glyphicon glyphicon-star-empty"></span>
+        <div class = "row">
+          <div class = "col-xs-4">
+            <img src = "https://upload.wikimedia.org/wikipedia/en/d/d4/Divergent.jpg">
+            <h2>3 Stars</h3>
+            <span class = "glyphicon glyphicon-star"></span>
+            <span class = "glyphicon glyphicon-star"></span>
+            <span class = "glyphicon glyphicon-star"></span>
+            <span class = "glyphicon glyphicon-star-empty"></span>
+            <span class = "glyphicon glyphicon-star-empty"></span>
+          </div>
+          <div class = "col-xs-8">
+            <button type = "button" class = "btn btn-primary btn-block"><a class = "large" href = "https://www.youtube.com/watch?v=sutgWjz10sM">
+              <br>
+              <span class = "glyphicon glyphicon-play"></span>
+              Divergent Trailer
+              <br></a></button>
+              <br>
+              <br>
+              <br>
+              <br>
+            <button type = "button" class = "btn btn-primary btn-block"><a class = "large" href = "https://www.youtube.com/watch?v=IR-l_TSjlEo">
+              <br>
+              <span class = "glyphicon glyphicon-play"></span>
+              Insurgent Trailer
+              <br></a></button>
+          </div>
+        </div>
     </body>
 </html>
